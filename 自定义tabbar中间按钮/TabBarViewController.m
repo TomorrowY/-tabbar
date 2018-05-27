@@ -21,7 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    NSLog(@"----");
     OneViewController *one = [[OneViewController alloc] init];
     one.tabBarItem.title = @"第一页";
     one.tabBarItem.image = [[UIImage imageNamed:@"tabBar_icon_mine"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
